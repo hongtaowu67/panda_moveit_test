@@ -1,5 +1,15 @@
 # Panda Robot Setup and Testing
 
+## Getting Started
+
+Assembly the robot following the [Panda's Instruction Handbook](https://download.franka.de/Franka_Emika_Panda_Instruction_Handbook_EN.pdf).
+
+Open the [Desk](Franka.Robot.de), log in the [Franka World](https://world.franka.de/) using the same laptop, download the latest OS system on [system updates](https://support.franka.de/#system-updates), and install the upgrade file following the [Instruction on the Getting Started Guide](https://download.franka.de/Getting_Started_System_Upgrade.pdf).
+
+Register the robot on Franka World --> MANAGE --> Devices, and install Franka Control Interface (FCI) on the robot.
+
+Now the Panda Robot is able to be connected using FCI.
+
 ## Installation
 1. libfranka
 2. franka_ros
@@ -7,7 +17,7 @@
 
 All the three things can installed from the [official tutorial](https://frankaemika.github.io/docs/installation_linux.html).
 
-_libfranka_ and *franka_ros* need to install from source. And the version of _libfranka_ needs to match with the software version of the robot. For example, if the robot software version is 3.0.2, the right version of _libfranka_ is 0.7.1. The robot version can be check from the Desk envrionment.
+_libfranka_ and *franka_ros* need to install from source. And the version of _libfranka_ needs to match with the software version of the robot. For example, if the robot software version is 3.0.2, the right version of _libfranka_ is 0.7.1. The robot version can be check from the Desk envrionment (setting --> system).
 
 To access the Desk envrionment, go to robot.franka.de in chrome.
 
